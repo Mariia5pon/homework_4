@@ -22,6 +22,9 @@
     padding-top: 20px;
 }
 
+
+
+
 .main_footer {
     position: sticky;
     bottom: 0;
@@ -31,9 +34,9 @@
     margin-bottom: 50px;
 }
 
-.main_footer h3 {
+.main_footer h2 {
     font-weight: 600;
     font-family: 'Lora', serif;
-    padding: 40px 50px;
-    font-size: 21px;
+    padding: 30px 50px;
+    font-size: 32px;
 }
