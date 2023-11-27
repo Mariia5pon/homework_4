@@ -22,8 +22,60 @@
     padding-top: 20px;
 }
 
+main {
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: black;
+    padding: 50px;
+    display: flex;
+    gap: 200px;
+}
 
+.container {
+    padding-bottom: 25px;
+}
 
+.first-letter p:first-letter {
+    color: red;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.first-line p:first-line {
+    color: red;
+    font-style: italic;
+}
+
+.selection p::selection {
+    background-color: green;
+    color: white;
+}
+
+.content p::before {
+    content: "Начало: ";
+    color: red;
+}
+
+.content p::after {
+    content: " :конец!";
+    color: green;
+}
+
+.not li:not(:nth-last-of-type(3)) {
+    color: blue;
+    font-size: 21px;
+}
+
+.first-last li:first-of-type, li:last-of-type {
+    color: blue;
+    font-size: 21px;
+}
+
+.third li:nth-child(3n) {
+    color: blue;
+    font-size: 21px;
+}
 
 .main_footer {
     position: sticky;
